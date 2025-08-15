@@ -69,7 +69,7 @@ using System.Data.SqlClient;
 // ===== CLASSE CONEXÃO =====
 public class Conexao
 {
-   public SqlConnection conn;
+   public SqlConnection conn; new SqlConnection(Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\jemes.silva\source\repos\MEU BANCO MDF.mdf";Integrated Security=True;Connect Timeout=30;Encrypt=True
    public void Conectar()
    {
        string connectionString = "Server=SEU_SERVIDOR;Database=EscolaDB;Trusted_Connection=True;";
